@@ -1,0 +1,12 @@
+:root {
+    /* Colors */
+    --color-text: #333; /* Change text color to dark gray for better readability on white */
+    --color-primary: #576cbc; /* Primary theme color */
+    --color-secondary: #19376d; /* Secondary theme color */
+    --color-dark: #0b2447; /* Dark accent color */
+    --color-bg: #ffffff; /* White background */
+  
+    /* Fonts */
+    --font-robot: "Roboto", sans-serif;
+  }
+  

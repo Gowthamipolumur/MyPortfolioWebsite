@@ -1,0 +1,90 @@
+@import "../../vars.css";
+
+/* Main Navbar Container */
+.navbar {
+  display: flex;
+  align-items: center; /* Vertically aligns all elements */
+  justify-content: space-between; /* Ensures equal spacing */
+  padding: 15px 10%;
+  background-color: #f9f9f9; /* Light background */
+  border-bottom: 1px solid #ddd; /* Subtle border */
+  position: sticky; /* Keeps navbar fixed */
+  top: 0;
+  z-index: 1000; /* Ensures navbar stays on top */
+}
+
+/* Navbar Title */
+.title {
+  font-size: 24px; /* Font size for title */
+  font-weight: 600;
+  text-decoration: none;
+  color: #333; /* Dark color for readability */
+  font-family: var(--font-robot);
+}
+
+/* Hamburger Menu Button */
+.menuBtn {
+  display: none; /* Hidden by default (desktop view) */
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  align-self: center; /* Aligns with navbar elements */
+}
+
+/* Menu Container */
+.menu {
+  display: flex;
+  gap: 30px; /* Spacing between menu items */
+}
+
+/* Menu Items */
+.menuItems {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuItems a {
+  font-size: 18px; /* Font size for links */
+  color: #333; /* Dark color */
+  text-decoration: none;
+  font-family: var(--font-robot);
+  transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.menuItems a:hover {
+  color: var(--color-primary); /* Highlight color on hover */
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 830px) {
+  .menuBtn {
+    display: block; /* Show hamburger menu */
+  }
+
+  .menu {
+    display: none; /* Hide menu by default */
+    position: absolute;
+    top: 100%; /* Dropdown below navbar */
+    right: 10%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .menuOpen {
+    display: flex; /* Show menu when active */
+  }
+
+  .menuItems {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,99 @@
+@import "../../vars.css";
+
+/* Main Container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 10%; /* Adjust margins as needed */
+    padding: 50px; /* Increase padding for more space inside */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Smooth rounded edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 1400px; /* Increase max width for a larger box */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto;
+  }
+
+/* Content Section */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60%;
+}
+
+/* Greeting Text */
+.greeting {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* Title Text */
+.title {
+  font-size: 54px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: var(--color-dark);
+  font-family: var(--font-roboto);
+}
+
+/* Description Text */
+.description {
+  font-size: 20px;
+  color: #19376d;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  font-family: var(--font-roboto);
+}
+
+/* Download Resume Button */
+.downloadResume {
+    display: inline-flex; /* Flexbox for icon and text alignment */
+    align-items: center; /* Vertically align icon and text */
+    justify-content: center; /* Center content */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size for the text */
+    font-weight: 600; /* Make the text bold */
+    color: #007bff; /* Blue text color */
+    border: 2px solid #007bff; /* Blue border */
+    padding: 10px 20px; /* Padding for button size */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition effect */
+    cursor: pointer; /* Pointer cursor on hover */
+    gap: 10px; /* Space between icon and text */
+  }
+  
+  .downloadResume:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+  }
+  
+
+/* Hero Image */
+.heroImg {
+  width: 50%;
+  max-width: 700px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .content {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .heroImg {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+}

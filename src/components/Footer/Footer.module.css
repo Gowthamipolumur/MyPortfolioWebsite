@@ -1,0 +1,54 @@
+@import "../../vars.css";
+
+/* Main Footer Styling */
+.footer {
+  background-color: #f9f9f9; /* Light background */
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 1px solid #ddd; /* Subtle top border */
+}
+
+/* Footer Content */
+.content {
+  margin-bottom: 10px;
+}
+
+/* Footer Title */
+.title {
+  font-size: 18px;
+  color: #333; /* Dark text color */
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Social Icons Container */
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Individual Social Icons */
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #333; /* Dark border */
+  border-radius: 8px; /* Slightly rounded corners */
+  color: #333;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #576cbc; /* Primary theme color on hover */
+  color: #fff; /* White icon color */
+  border-color: #576cbc; /* Match hover border color */
+}
+
+/* Copyright Section */
+.copyright {
+  font-size: 14px;
+  color: #666; /* Subtle gray text */
+}

@@ -1,0 +1,11 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure full height for the app */
+  }
+  
+  .mainContent {
+    flex: 1; /* Push the footer to the bottom when there’s less content */
+    padding: 20px; /* Add padding for the main content */
+  }
+  
