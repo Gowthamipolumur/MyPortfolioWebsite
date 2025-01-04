@@ -1,9 +1,9 @@
 import "react";
-import styles from "./Footer.module.css";
+import styles from "./Contact.module.css";
 
-export const Footer = () => {
+export const Contact = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="contact">
       <div className={styles.content}>
         <h3 className={styles.title}>CONTACT ME</h3>
         <div className={styles.socialIcons}>

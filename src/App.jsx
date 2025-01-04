@@ -1,9 +1,10 @@
 import styles from './App.module.css';
 import { Hero } from './components/Hero/Hero.jsx';
 import { Navbar } from "./components/Navbar/Navbar.jsx";
-import { Footer } from "./components/Footer/Footer.jsx";
+import { Contact } from "./components/Contact/Contact.jsx";
 import { About } from "./components/About/About.jsx";
 import { Experience } from "./components/Experience/Experience.jsx";
+import { Projects } from './components/Projects/Projects.jsx';
 function App() {
   return (
     <div className={styles.App}>
@@ -12,9 +13,10 @@ function App() {
         <Hero />
         <About />
         <Experience/>
+        <Projects/>
         {/* Add more sections like About, Experience, Projects, etc., if needed */}
       </main>
-      <Footer />
+      <Contact />
     </div>
   );
 }
