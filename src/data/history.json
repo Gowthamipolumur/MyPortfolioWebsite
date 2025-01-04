@@ -1,0 +1,28 @@
+[
+    {
+      "role": "Software Analyst",
+      "organisation": "Capgemini",
+      "startDate": "Apr, 2022",
+      "endDate": "July, 2023",
+      "experiences": [
+        "Developed and optimized end-to-end data pipelines using AWS (Lambda, Glue ETL, S3, RDS), enhancing data processing efficiency by 30%.",
+        "Extracted, cleaned, and validated complex datasets from multiple partners, ensuring data accuracy and integrity.",
+        "Automated file transfers and data management using AWS Lambda, PostgreSQL, and Athena, reducing manual intervention by 50%.",
+        "Reduced AWS operational costs by 20% through proactive cost management strategies.",
+        "Built automated notification workflows utilizing AWS SES, Lambda, Step Functions, and SNS."
+      ],
+      "imageSrc": "assets/history/Capgemini.png"
+    },
+    {
+      "role": "Software Engineer Intern",
+      "organisation": "HCL",
+      "startDate": "Apr, 2021",
+      "endDate": "Oct, 2021",
+      "experiences": [
+        "Worked on a Hospital Management System (HMS) project using Java and JDBC.",
+        "Contributed to the development of a user-friendly interface and back-end functionality."
+      ],
+      "imageSrc": "assets/history/hcl.png"
+    }
+  ]
+  

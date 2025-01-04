@@ -1,0 +1,63 @@
+[
+    {
+      "category": "Programming Languages",
+      "skills": [
+        { "title": "Java", "imageSrc": "/assets/skills/java.png" },
+        { "title": "Python", "imageSrc": "/assets/skills/python.png" },
+        { "title": "SQL", "imageSrc": "/assets/skills/sql.png" },
+        { "title": "C", "imageSrc": "/assets/skills/c-programming.png" },
+        { "title": "PHP", "imageSrc": "/assets/skills/PHP.png" }
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "skills": [
+        { "title": "Spring Boot", "imageSrc": "/assets/skills/springboot.png" },
+        { "title": "React JS", "imageSrc": "/assets/skills/react.png" },
+        { "title": "Flask", "imageSrc": "/assets/skills/flask.jpg" },
+        { "title": "Bootstrap", "imageSrc": "/assets/skills/bootstrap.png" },
+        { "title": "Node JS", "imageSrc": "/assets/skills/nodejs.png" }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": [
+        { "title": "AWS", "imageSrc": "/assets/skills/aws.png" },
+        { "title": "Docker", "imageSrc": "/assets/skills/docker.png" },
+        { "title": "Kubernetes", "imageSrc": "/assets/skills/kubernetes.png" },
+        { "title": "Jenkins", "imageSrc": "/assets/skills/jenkins.png" },
+        { "title": "Terraform", "imageSrc": "/assets/skills/terraform.png" }
+      ]
+    },
+    {
+      "category": "Database & Big Data",
+      "skills": [
+        { "title": "PostgreSQL", "imageSrc": "/assets/skills/Postgresql.png" },
+        { "title": "MySQL", "imageSrc": "/assets/skills/mysql.png" },
+        { "title": "MongoDB", "imageSrc": "/assets/skills/mongodb.png" },
+        { "title": "Apache Spark", "imageSrc": "/assets/skills/apache_spark.png" },
+        { "title": "Athena", "imageSrc": "/assets/skills/athena.png" }
+      ]
+    },
+    {
+      "category": "Web & Core",
+      "skills": [
+        { "title": "HTML5", "imageSrc": "/assets/skills/html-5.png" },
+        { "title": "CSS3", "imageSrc": "/assets/skills/css.png" },
+        { "title": "JavaScript", "imageSrc": "/assets/skills/javascript.png" },
+        { "title": "TypeScript", "imageSrc": "/assets/skills/typescript.png" },
+        { "title": "Data Structures", "imageSrc": "/assets/skills/data_structure.png" }
+      ]
+    },
+    {
+      "category": "Tools & Applications",
+      "skills": [
+        { "title": "Git", "imageSrc": "/assets/skills/git.png" },
+        { "title": "Jira", "imageSrc": "/assets/skills/jira.png" },
+        { "title": "Postman", "imageSrc": "/assets/skills/postman.png" },
+        { "title": "Anaconda", "imageSrc": "/assets/skills/anaconda.png" },
+        { "title": "Linux", "imageSrc": "/assets/skills/linux.png" }
+      ]
+    }
+  ]
+  

@@ -50,7 +50,8 @@
   font-family: var(--font-roboto);
 }
 
-/* Download Resume Button */
+/* Download Resume Button
+------ */
 .downloadResume {
     display: inline-flex; /* Flexbox for icon and text alignment */
     align-items: center; /* Vertically align icon and text */

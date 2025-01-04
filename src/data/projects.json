@@ -1,0 +1,59 @@
+[
+    {
+      "title": "CineQuest",
+      "imageSrc": "/assets/projects/cinequest.png",
+      "description": "A movie booking website featuring an admin panel for site management and a user panel for booking and browsing movies.",
+      "skills": ["AngularJS", "Spring Boot", "Java", "SQL"],
+      "demo": "https://www.example.com/cinequest",
+      "source": "https://github.com/Gowthamipolumur/CineQuest"
+    },
+    {
+      "title": "Leaf Disease Prediction",
+      "imageSrc": "/assets/projects/leaf_disease.png",
+      "description": "Designed and implemented a deep learning model to predict leaf diseases, improving prediction accuracy by 20%.",
+      "skills": ["Python", "Machine Learning", "Deep Learning","ReactJS"],
+      "demo": "https://www.example.com/leaf-disease",
+      "source": "https://github.com/Gowthamipolumur/LeafDiseasePrediction"
+    },
+    {
+      "title": "UGA Dining Platform",
+      "imageSrc": "/assets/projects/uga_dining.png",
+      "description": "An online platform for UGA's dining services, streamlining the ordering process for students.",
+      "skills": ["ReactJS", "Spring Boot", "JavaScript", "MySQL"],
+      "demo": "https://www.example.com/uga-dining",
+      "source": "https://github.com/Gowthamipolumur/UGADiningPlatform"
+    },
+    {
+      "title": "Breast Cancer Detection",
+      "imageSrc": "/assets/projects/breast_cancer.png",
+      "description": "Developed a Naive Bayes-based ML model for breast cancer prediction and built a Flask web app for real-time diagnosis.",
+      "skills": ["Python", "Flask", "Machine Learning"],
+      "demo": "https://www.example.com/breast-cancer",
+      "source": "https://github.com/Gowthamipolumur/BreastCancerDetection"
+    },
+    {
+      "title": "Sentiment Analysis",
+      "imageSrc": "/assets/projects/sentiment_analysis.png",
+      "description": "Implemented a sentiment analysis system to classify textual data into positive, negative, or neutral categories using natural language processing techniques.",
+      "skills": ["Python", "NLP", "TextBlob", "Machine Learning"],
+      "demo": "https://www.example.com/sentiment-analysis",
+      "source": "https://github.com/Gowthamipolumur/SentimentAnalysis"
+    },
+    {
+      "title": "Speech Emotion Recognition",
+      "imageSrc": "/assets/projects/speech_emotion.png",
+      "description": "Developed a system to classify emotions from speech using audio signal processing and deep learning techniques.",
+      "skills": ["Python", "Librosa", "Deep Learning", "TensorFlow"],
+      "demo": "https://www.example.com/speech-emotion",
+      "source": "https://github.com/Gowthamipolumur/SpeechEmotionRecognition"
+    },
+    {
+      "title": "MelodyMatch",
+      "imageSrc": "/assets/projects/melody_match.png",
+      "description": "A song recognition system that identifies songs based on a user humming or singing. Utilizes advanced audio processing and pattern matching algorithms.",
+      "skills": ["Python", "Librosa", "Machine Learning", "Audio Signal Processing", "RestAPI'S","AngularJS"],
+      "demo": "https://www.example.com/melody-match",
+      "source": "https://github.com/Gowthamipolumur/MelodyMatch"
+    }
+  ]
+  

@@ -78,78 +78,20 @@
     color: var(--color-secondary);
 }
 
-.skills {
-    margin-top: 50px;
-  }
-  
-  .skillsTitle {
-    font-size: 36px; /* Increased font size for title */
-    font-weight: 800;
-    margin-bottom: 50px;
-    text-align: center;
-    color: var(--color-dark);
-    text-transform: uppercase; /* Matches the provided style */
-  }
-  
-  .skillsContainer {
-    display: flex;
-    flex-direction: column; /* Each category stacked vertically */
-    align-items: center;
-    gap: 70px; /* More spacing between skill categories */
-  }
-  
-  .skillsCategory {
-    width: 90%; /* Broader container for each category */
-    text-align: center;
-  }
-  
-  .skillsCategory h4 {
-    font-size: 28px; /* Larger font size for category heading */
-    font-weight: 700;
-    margin-bottom: 30px;
-    color: var(--color-secondary);
-    text-transform: capitalize;
-  }
-  
-  .skillsIcons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 120px; /* Larger spacing between icons */
-  }
-  
-  .skillsIcons img {
-    width: 80px; /* Larger icon size */
-    height: 80px;
-    object-fit: contain;
-    transition: transform 0.3s ease;
-  }
-  
-  .skillsIcons img:hover {
-    transform: scale(1.2); /* Enlarged hover effect */
-  }
-  
-  .skill p {
-    margin: 10px 0 0 0;
-    font-size: 16px; /* Slightly larger font size for skill names */
-    font-weight: 600;
-    color: var(--color-dark);
-    text-align: center;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .skillsCategory {
-      width: 100%; /* Adjust width for smaller screens */
-    }
-  
-    .skillsIcons {
-      gap: 30px; /* Reduced spacing for smaller screens */
-    }
-  
-    .skillsTitle {
-      font-size: 30px; /* Adjusted title size */
-    }
-  }
-  
-  
+
+
+
+
+.certificationLink {
+  font-size: 14px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.certificationLink:hover {
+  color: var(--color-secondary);
+}
+
   
