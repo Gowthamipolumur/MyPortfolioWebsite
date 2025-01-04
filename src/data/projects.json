@@ -54,6 +54,14 @@
       "skills": ["Python", "Librosa", "Deep Learning", "TensorFlow"],
       "demo": "https://www.example.com/speech-emotion",
       "source": "https://github.com/Gowthamipolumur/SpeechEmotionRecognition"
+    },
+    {
+      "title": "Hospital Management System",
+      "imageSrc": "/assets/projects/hospital_management.jpg",
+      "description": "Developed a comprehensive hospital management system using Java and JDBC, providing a user-friendly interface for efficient hospital operations.",
+      "skills": ["Java", "JDBC", "MySQL", "HTML", "CSS"],
+      "demo": "https://www.example.com/hospital-management",
+      "source": "https://github.com/Gowthamipolumur/HospitalManagementSystem"
     }
   ]
   
